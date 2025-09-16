@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CareYourHome — New Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Reuse same header as index.html -->
+  <header class="site-header">
+    <div class="topbar container">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">CY</div>
+        <div>
+          <div class="site-title">CareYourHome</div>
+          <div class="site-tag">Because Every Corner Deserves Care.</div>
+        </div>
+      </div>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav-actions" role="navigation" aria-label="Main navigation">
+        <div class="nav-links" role="menubar">
+          <a href="index.html" role="menuitem">Home</a>
+          <a href="new-products.html" role="menuitem">New Products</a>
+          <a href="popular-products.html" role="menuitem">Popular</a>
+          <a href="about.html" role="menuitem">About</a>
+
+        </div>
+        <a class="cta-primary" href="new-products.html">Shop New</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-title">New arrivals — fresh finds for a cared-for home</h1>
+        <p class="hero-sub">We handpick the latest home décor that blends style with comfort.</p>
+        <div class="hero-cta">
+          <a class="primary" href="#list">Shop New</a>
+          <a class="secondary" href="popular-products.html">See Popular</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="mock">
+          <div class="mock-item"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container main-grid" id="list">
+    <section>
+      <div class="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="kitchen">Kitchen</button>
+        <button class="chip" data-filter="lighting">Lighting</button>
+        <button class="chip" data-filter="decor">Decor</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="card" data-cat="lighting decor">
+          <div class="imgwrap">
+            <div class="mock-item"><img src="product1\product1.jpg" alt=""></div>
+          </div>
+          <h3>Crosscut Furniture Metal Floor Lamp with 3 Shelves (Fresh Flower) LED Bulb Included, Yellow</h3>
+          <p>Decorative metal floor lamp with three wooden shelves and multipurpose lamp stand, Best for gifting</p>
+          <div class="price">₹1,795</div>
+          <div class="actions">
+            <a class="aff-btn" href="https://amzn.to/41Swkuu" target="_blank" rel="sponsored noopener">Buy on Amazon</a>
+            <a class="view-btn" href="popular-products.html">View</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="textiles decor">
+          <div class="imgwrap">
+            <div class="mock-item"><img src="product2/product2.1.jpg" alt=""></div>
+          </div>
+          <h3>Export House Modern Art Boho Cushion Cover Pack of 5 | Throw Pillow Cover for Home Decor</h3>
+          <p>Vibrant, durable, and skin-friendly covers with neat stitching and a hidden zipper.</p>
+          <div class="price">₹4,899</div>
+          <div class="actions">
+            <a class="aff-btn" href="https://amzn.to/47IVZtt" target="_blank" rel="sponsored noopener">Buy on Amazon</a>
+            <a class="view-btn" href="popular-products.html">View</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="kitchen">
+          <div class="imgwrap">
+            <div class="mock-item"><img src="product4/product4.1.webp" alt=""></div>
+          </div>
+          <h3>Earthenware Pink Handpainted Terracotta Oblong Flower Vase, Terracotta Decorative For Home Decor Earthen
+            Flower Vases Pots For Home & Office</h3>
+          <p>Intricately crafted by skilled artisans, these vases showcase traditional Madhubani designs, adding
+            cultural elegance to your home.</p>
+          <div class="price">₹1,399</div>
+          <div class="actions">
+            <a class="aff-btn" href="https://amzn.to/41WzDRn" target="_blank" rel="sponsored noopener">Buy on Amazon</a>
+            <a class="view-btn" href="new-products.html">View</a>
+          </div>
+        </article>
+
+        <article class="card" data-cat="decor">
+          <div class="imgwrap">
+            <div class="mock-item"><img src="product3/product3.1.jpg" alt=""></div>
+          </div>
+          <h3>Arts Box Round Decorative Wall Mirror Frame with Timeless Design for Bathroom, Living Room, Bedroom,
+            Vanity Mirror</h3>
+          <p>Crystal-clear reflection with a luxurious touch.</p>
+          <div class="price">₹1,548</div>
+          <div class="actions">
+            <a class="aff-btn" href="https://amzn.to/3VMwvUG" target="_blank" rel="sponsored noopener">Buy on Amazon</a>
+            <a class="view-btn" href="popular-products.html">View</a>
+          </div>
+        </article>
+
+        <!-- Add more as needed -->
+      </div>
+    </section>
+
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="widget">
+        <h4>Why shop new?</h4>
+        <p class="small">Fresh designs keep your home feeling modern — we test items for quality before we list them.
+        </p>
+      </div>
+
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid container">
+      <div class="col">
+        <div style="font-weight:800; font-size:16px;">CareYourHome</div>
+        <div class="small">Because Every Corner Deserves Care.</div>
+      </div>
+      <div class="col">
+        <div style="font-weight:700; margin-bottom:6px;">Explore</div>
+        <a href="new-products.html">New Products</a>
+        <a href="popular-products.html">Popular Picks</a>
+      </div>
+      <div class="col">
+        <div style="font-weight:700; margin-bottom:6px;">Support</div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Affiliate Disclosure</a>
+      </div>
+
+      <div class="col">
+        <div style="font-weight:700; margin-bottom:6px;">Contact</div>
+        <div class="small">careyourhome1@gmail.com</div>
+        <div class="small">Uttarakhand, India</div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(51,51,51,0.04); padding-top:12px; margin-top:18px; text-align:center;">
+      <small class="small">© <span id="year2"></span> CareYourHome. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

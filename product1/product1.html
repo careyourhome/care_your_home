@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CareYourHome — Product View</title>
+  <link rel="stylesheet" href="product1.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="topbar container">
+      <div class="brand">
+        <div class="logo"><img src="../logo2.jpg" alt=""></div>
+        <div>
+          <div class="site-title">CareYourHome</div>
+          <div class="site-tag">Because Every Corner Deserves Care.</div>
+        </div>
+      </div>
+      <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-actions">
+        <div class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="../new-products.html">New Products</a>
+          <a href="../popular-products.html">Popular</a>
+          <a href="../about.html">About</a>
+        </div>
+        <a class="cta-primary" href="../new-products.html">Shop Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product Section -->
+  <main class="container" style="margin-top:30px;">
+    <div class="product-view">
+      <!-- Left: Image gallery -->
+      <div class="product-gallery">
+        <div class="main-img">
+          <img id="current-img" src="product1.jpg" alt="Product Image">
+        </div>
+        <div class="thumbs">
+          <img src="product1.jpg" alt="thumb1" onclick="changeImage(this)">
+          <img src="product1.1.jpg" alt="thumb2" onclick="changeImage(this)">
+          <img src="product1.2.jpg" alt="thumb3" onclick="changeImage(this)">
+          <img src="product1.3.jpg" alt="thumb4" onclick="changeImage(this)">
+        </div>
+      </div>
+
+      <!-- Right: Details -->
+      <div class="product-details">
+        <h1>Crosscut Furniture Metal Floor Lamp with 3 Shelves (Fresh Flower)</h1>
+        <div class="rating">
+          <span></span>
+        </div>
+        <div class="price">₹1,795</div>
+       <h2>About this item</h2>
+
+<p><strong>Multipurpose Design:</strong> Decorative metal floor lamp with three wooden shelves and multipurpose lamp stand, best for gifting.</p>
+
+<p><strong>Durable Build:</strong> Crafted from strong black powder-coated metal. With A++ energy rating. LED bulb included.</p>
+
+<p><strong>Premium Shade:</strong> Beautiful metal floor lamp with premium washable shade. Great gifting idea.</p>
+
+<p><strong>Festive Use:</strong> Diwali decorative floor lamp used to display planters and other creative articles.</p>
+
+<p><strong>Modern Minimalist Design:</strong> Sleek, contemporary design complements various interior styles for a stylish upgrade.</p>
+
+<p><strong>Warranty:</strong> Backed by a 12-month exclusive replacement warranty from Crosscut Furniture for quality assurance and peace of mind.</p>
+
+
+
+
+
+        <div class="actions" style="margin-top:20px;">
+          <a class="aff-btn" href="https://amzn.to/41Swkuu" target="_blank" rel="sponsored noopener">Buy Now on
+            Amazon</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid container">
+      <div class="col">
+        <div style="font-weight:800; font-size:16px;">CareYourHome</div>
+        <div class="small">Because Every Corner Deserves Care.</div>
+      </div>
+      <div class="col">
+        <div style="font-weight:700; margin-bottom:6px;">Explore</div>
+        <a href="../new-products.html">New Products</a>
+        <a href="../popular-products.html">Popular Picks</a>
+        <a href="../about.html">About</a>
+      </div>
+      <div class="col">
+        <div style="font-weight:700; margin-bottom:6px;">Support</div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Affiliate Disclosure</a>
+      </div>
+      <div class="col">
+        <div style="font-weight:700; margin-bottom:6px;">Contact</div>
+        <div class="small">careyourhome1@gmail.com</div>
+        <div class="small">Uttarakhand, India</div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(51,51,51,0.04); padding-top:12px; margin-top:18px; text-align:center;">
+      <small class="small">© <span id="year"></span> CareYourHome. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="product1.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // image gallery switcher
+    function changeImage(el) {
+      document.getElementById("current-img").src = el.src;
+    }
+  </script>
+</body>
+
+</html>
